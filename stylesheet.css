@@ -1,6 +1,7 @@
 .body {
     padding: 0px;
     margin: 0px;
+    background-repeat: no-repeat;
 }
 .header {
     width: 100%;
@@ -9,6 +10,7 @@
     justify-content: center;
     position: static;
     overflow: hidden;
+    background-repeat: no-repeat;
 }
 
 #hero.header {
@@ -20,7 +22,6 @@
     flex-direction: row;
     padding-top: 8em;
     background-repeat: no-repeat;
-    background-position: 100% 100%;
     background-size: cover;
     background:
         linear-gradient(
