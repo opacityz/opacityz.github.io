@@ -187,3 +187,57 @@
     padding: 1em;
     border-radius: 15px;
 }
+#votesite.header {
+    background-color: #ffc306;
+    height: 25em;
+    position: relative;
+    z-index: 1001;
+}
+.voteContainer {
+    color: black;
+    display: flex;
+    flex-direction: row;
+}
+.votesite {
+    background-color: transparent;
+    text-decoration: none;
+    width: 25%;
+    padding: 2em;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    position: relative;
+    margin: .25em;
+    -webkit-transition: all 150ms cubic-bezier(0.420, 0.000, 0.580, 1.000);
+    -moz-transition: all 150ms cubic-bezier(0.420, 0.000, 0.580, 1.000);
+    -o-transition: all 150ms cubic-bezier(0.420, 0.000, 0.580, 1.000);
+    transition: all 150ms cubic-bezier(0.420, 0.000, 0.580, 1.000); /* ease-in-out */
+}
+.votesite:hover {
+    background-color: black;
+    border-color: #000000;
+    transform: scale(1.025,1.025);
+    -webkit-transition: all 150ms cubic-bezier(0.420, 0.000, 0.580, 1.000);
+    -moz-transition: all 150ms cubic-bezier(0.420, 0.000, 0.580, 1.000);
+    -o-transition: all 150ms cubic-bezier(0.420, 0.000, 0.580, 1.000);
+    transition: all 150ms cubic-bezier(0.420, 0.000, 0.580, 1.000); /* ease-in-out */
+}
+.votesiteHeading {
+    font-family: 'Muli', sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+    color: white;
+}
+.votesiteDescription {
+    font-family: 'Muli', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: .75em;
+    color: white;
+}
+.allsitescontainer {
+    text-decoration: none;
+}
+.allSites {
+    text-decoration: none;
+}
