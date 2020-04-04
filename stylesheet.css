@@ -45,7 +45,7 @@
 }
 .coloroverlay {
     background-color: rgba(0, 0, 0, 0.75);
-    width: 100%;
+    width: 100vw;
     height: 150vh;
     position: absolute;
     top: auto;
