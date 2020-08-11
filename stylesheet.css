@@ -30,6 +30,46 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.navbarcontainer{
+    height: 75px;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    padding-left: 20%;
+    padding-right: 20%;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+}
+.leftnav {
+    width: auto;
+}
+.rightnav{
+    width: auto
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    position: relative;
+    z-index: 100001;
+}
+.navtext {
+    font-family: 'Muli', sans-serif;
+    font-weight: 200;
+    font-size: 1em;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 1em;
+    position: relative;
+    z-index: 100001;
+}
+.navtext:hover {
+    color: #ffc306;
+}
+.navlogo {
+    height: 100px;
+}
 .content {
     justify-content: center;
     align-items: center;
